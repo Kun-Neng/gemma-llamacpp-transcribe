@@ -1,0 +1,29 @@
+# 套件
+node_modules/
+
+# 音檔：錄音可能含有私人對話，不進版控
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.webm
+
+# 轉錄結果：transcribe.ts 會在音檔旁產生同名的 .txt
+*.txt
+
+# 環境變數
+.env
+.env.*
+
+# 記錄檔
+*.log
+npm-debug.log*
+
+# 編輯器與作業系統
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
